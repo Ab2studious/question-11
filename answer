@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{// Defining Variables
+    float tank = 20, MPGIT = 23.5, MPGOH = 28.9;
+    float d = tank * MPGIT;
+    float d2 = tank * MPGOH;
+
+     cout << " The Distance the car can travel on one tank of gas when in the town is " <<MPGIT<< endl;
+    cout << " The Distance the car can travel on one tank of gas on the highway is " << MPGOH<< endl;
+
+    return 0;
+}
